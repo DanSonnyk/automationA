@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7abca5-cd6f-4d90-a366-4e101cc388cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestesB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestesB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestesB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestesB.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="315">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestesB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestesB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestesB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,14 +58,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/TestesA.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ValidarProduto.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestesB.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -133,12 +134,12 @@
             </path>
             <path>
               <item name="automacaoA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="automacaoA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automacaoA" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -152,6 +153,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -170,9 +172,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestesB.testaQuantProduto">
+  <component name="RunManager" selected="Maven.Unnamed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in automacaoA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automacaoA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestesB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automacaoA" />
@@ -224,6 +243,32 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -247,11 +292,14 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Maven.Unnamed" />
       <item itemvalue="JUnit.TestesB" />
       <item itemvalue="JUnit.TestesB.testaQuantProduto" />
+      <item itemvalue="JUnit.All in automacaoA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in automacaoA" />
         <item itemvalue="JUnit.TestesB.testaQuantProduto" />
         <item itemvalue="JUnit.TestesB" />
       </list>
@@ -267,8 +315,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528292024359</updated>
-      <workItem from="1528292036331" duration="5424000" />
+      <workItem from="1528292036331" duration="7040000" />
     </task>
+    <task id="LOCAL-00001" summary="aLTERACAO">
+      <created>1528308405485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528308405485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -281,28 +337,34 @@
     <history-entry file="TestesB_testaQuantProduto - 2018.06.06 at 11h 26m 56s.xml">
       <configuration name="TestesB.testaQuantProduto" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestesB_testaQuantProduto - 2018.06.06 at 15h 08m 00s.xml">
+      <configuration name="TestesB.testaQuantProduto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_automacaoA - 2018.06.06 at 15h 21m 25s.xml">
+      <configuration name="All in automacaoA" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5424000" />
+    <option name="totallyTimeSpent" value="7040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="186" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4984375" weight="0.32976654" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49739584" weight="0.32976654" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32976654" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.503125" side_tool="true" visible="true" weight="0.32976654" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.49947917" visible="true" weight="0.32976654" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.32976654" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49947917" weight="0.32976654" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" visible="true" weight="0.32976654" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49947917" weight="0.32976654" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -324,14 +386,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aLTERACAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="aLTERACAO" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestesA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -352,11 +411,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestesB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -376,5 +442,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
   </component>
 </project>
