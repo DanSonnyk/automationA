@@ -7,6 +7,6 @@ public class TestesB {
     public void testaQuantProduto(){
         ValidarProduto util = new ValidarProduto();
         assertFalse("Teste PASSED!",util.validarQuant("100" ,100).equals(false));
-        System.out.println("Test Passed!");
+        System.out.println("Test Passed! JUnit");
     }
 }
